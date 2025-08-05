@@ -1,0 +1,31 @@
+# 保留关键项目文件
+!*.csproj     # 需跟踪C#项目文件
+!*.sln        # 需跟踪解决方案文件
+!/[Aa]ssets/**/*.meta  # 必须跟踪Assets的meta文件[6](@ref)
+
+# 忽略临时目录（原配置正确）
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# 忽略构建产物
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# 忽略开发环境缓存
+.vs/
+.gradle/
+.consulo/
+
+# 忽略用户特定文件
+*.suo
+*.tmp
+*.user
+*.DotSettings.user
+*.userprefs
