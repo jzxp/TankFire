@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class Barries : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioClip hitAudio;
 
-    // Update is called once per frame
-    void Update()
+    public void PlayAudio()
     {
-        
+        AudioSource.PlayClipAtPoint(hitAudio, transform.position);
     }
 }
