@@ -119,3 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6150b1ed15dde5c4880b820a2f200758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 9193007591089499277, guid: 22ac6c13fd63017459324812357ff23a, type: 3}
+  enemyPrefabList:
+  - {fileID: 9193007591089499277, guid: dbe1ecc7dbdde0d43b901f42497952cf, type: 3}
+  - {fileID: 9193007591089499277, guid: 7a18f789a4a255f418560f88a1a478cd, type: 3}
+  createPlayer: 0

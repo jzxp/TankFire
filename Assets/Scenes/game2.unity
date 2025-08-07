@@ -1049,9 +1049,9 @@ MonoBehaviour:
   isDefeat: 0
   born: {fileID: 3688915810646883153, guid: 4115fdb1333c2cc4d87e9c6269d9c62d, type: 3}
   born2: {fileID: 9167286393317356962, guid: 00087f8d0e92f2f499ca53f02e4e0dd5, type: 3}
-  playerScoreText: {fileID: 0}
-  playerLifeValueText: {fileID: 0}
-  GameOverUI: {fileID: 0}
+  playerScoreText: {fileID: 1395225693}
+  playerLifeValueText: {fileID: 738683641}
+  GameOverUI: {fileID: 1121991177}
 --- !u!4 &1889300359
 Transform:
   m_ObjectHideFlags: 0
