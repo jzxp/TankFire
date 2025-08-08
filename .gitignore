@@ -1,0 +1,31 @@
+# ===== 保留关键项目文件 =====
+!*.csproj              # 跟踪所有 C# 项目文件 [7](@ref)
+!*.sln                 # 跟踪解决方案文件 [7](@ref)
+!/[Aa]ssets/**/*.meta  # 强制跟踪 Assets 下的 .meta 文件（资源依赖关键）[4,10](@ref)
+
+# ===== 忽略 Unity 临时目录 =====
+/[Ll]ibrary/           # Unity 编译缓存（必须忽略）[4,8](@ref)
+/[Tt]emp/              # Unity 运行时临时文件 [4](@ref)
+/[Oo]bj/               # 编译中间文件 [7](@ref)
+/[Bb]uild/             # 本地构建输出
+/[Bb]uilds/            # 多平台构建目录
+/[Ll]ogs/              # Unity 日志
+/[Uu]ser[Ss]ettings/   # 用户本地编辑器配置
+
+# ===== 忽略构建产物 =====
+*.apk                  # Android 安装包
+*.aab                  # Android App Bundle
+*.unitypackage         # Unity 资源包
+*.app                  # macOS 应用
+
+# ===== 忽略开发环境缓存 =====
+.vs/                   # Visual Studio 工作区缓存 [7](@ref)
+.gradle/               # Android Gradle 缓存
+.consulo/              # Consulo IDE 配置
+
+# ===== 忽略用户特定文件 =====
+*.suo                  # Visual Studio 用户选项
+*.tmp                  # 临时文件
+*.user                 # 项目用户配置
+*.DotSettings.user     # ReSharper 配置
+*.userprefs            # MonoDevelop 配置 [7](@ref)
