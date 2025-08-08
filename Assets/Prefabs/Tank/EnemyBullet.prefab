@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c93223d26f1b84e80e9324430f39b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 5
   isPlayerBullet: 0
   explosionPrefab: {fileID: 3042769364869232797, guid: 5c33db903545ca84d806b8de7380922a, type: 3}
 --- !u!61 &4740083117780567347
